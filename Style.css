@@ -1,0 +1,139 @@
+header {
+
+    color: blue;
+    background-color: rgb(47, 186, 190);
+    background: transparent;
+    backdrop-filter: blur(10px);
+    margin: 0%;
+    padding: 1px;
+
+}
+
+ul {
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body {
+    background-color: rgb(22, 173, 153);
+    margin: 0%;
+    background-image: url("KaraokeAi.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+button {
+    margin: 20px;
+    font-size: larger;
+    outline-style: outset;
+    padding: 20px;
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    /* Add rounded corners */
+    transition: background-color 0.3s ease;
+    /* Add transition effect */
+
+
+
+
+}
+
+ul li {
+    list-style: none;
+    background-color: aquamarine;
+}
+
+button:hover {
+    background-color: rgb(207, 187, 161);
+    color: rgb(46, 240, 20);
+}
+
+a {
+    margin: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(226, 97, 45);
+}
+
+h3 {
+    color: rgb(48, 112, 11);
+}
+
+div {
+    margin: 10px;
+}
+
+* {
+    margin: 0%;
+}
+
+
+.media {
+    height: 400px;
+}
+
+
+
+
+body {
+    font-family: sans-serif;
+}
+
+.slider {
+    position: relative;
+    width: 20px;
+    height: 200px;
+    background-color: #ddd;
+    margin: 50px auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.slider .handle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #333;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.slider .fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4CAF50;
+    border-radius: 10px;
+    z-index: 0;
+}
+
+.edit-box {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.edit-box input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
